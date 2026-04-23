@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Общие интересы — лучший повод познакомиться",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Мы объединяем людей вокруг того, что им по-настоящему важно. Здесь не нужно искать тему для разговора — она уже есть.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Камерность и доверие",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Небольшие группы единомышленников, уютные встречи, атмосфера без лишней формальности. Каждый участник — свой человек.",
   },
   {
-    title: "Естественная динамика",
+    title: "Регулярность рождает дружбу",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Встречаемся регулярно, чтобы связи становились настоящими. Не просто знакомые — а люди, с которыми хочется видеться снова.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Москва как площадка",
+    description: "Выбираем интересные пространства города: лофты, мастерские, кафе. Каждая встреча — это ещё и новое место для открытия.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">О клубе</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Встречи с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>смыслом</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Клуб — это больше, чем встречи. Это сообщество живых людей с настоящими увлечениями. Мы создаём пространство, где легко стать своим.
             </p>
 
             {philosophyItems.map((item, index) => (
