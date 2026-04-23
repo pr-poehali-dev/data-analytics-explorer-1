@@ -141,7 +141,7 @@ export function Hero() {
 
           <h1
             ref={titleRef}
-            className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
+            className="text-7xl font-medium text-balance text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl mx-[147px] text-right"
           >
             {"Место, где люди"}
             <br />
